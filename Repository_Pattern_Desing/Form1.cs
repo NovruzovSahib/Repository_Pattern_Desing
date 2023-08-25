@@ -122,7 +122,6 @@ namespace Repository_Pattern_Desing
         {
             try
             {
-                EmployerRepositoryModel employerRepositoryModel = new EmployerRepositoryModel();
                 bool result = employerRepositoryModel.DeleteEmployer(Convert.ToInt16(IDtxt.Text.Trim()));
 
                 if (result)
